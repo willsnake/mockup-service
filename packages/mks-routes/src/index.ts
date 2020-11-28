@@ -1,4 +1,7 @@
-// var extend = require('lodash/fp/extend');
-import merge from 'lodash/fp/merge';
+const exampleFunction = () => {
+  console.log('Called exampleFunction');
+};
 
-module.exports = {};
+export = {
+  exampleFunction,
+};
