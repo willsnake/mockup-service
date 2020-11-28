@@ -1,11 +1,11 @@
 {
-  "name": "mks-routes",
+  "name": "@mks/routes",
   "version": "1.0.0",
   "description": "MockupServices Routes",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
-    "dist/**/*",
+    "lib/**/*",
     "yarn.lock"
   ],
   "author": "WillSnake",
@@ -15,8 +15,8 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "prebuild": "rimraf dist",
-    "prepublish": "rimraf dist"
+    "prebuild": "rimraf lib",
+    "prepublish": "rimraf lib"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.165",
